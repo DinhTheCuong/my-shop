@@ -1,3 +1,10 @@
+.header {
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    width: 100%;
+}
+
 .topbar {
     background: #04aa6d;
     /* background: linear-gradient(90deg, #108dc7, #ef8e38); */
@@ -59,12 +66,23 @@
 
 .navbar-item i {
     color: var(--text-color);
-    margin-left: 0.5rem;
+    margin-left: 6px;
+
 }
 
 .navbar-item a {    
     color: var(--text-color);
     text-decoration: none;
+}
+
+.navbar-item:first-child a{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item img {
+    width: 3rem;
+    margin: 0 1rem 0 0;
 }
 
 .navbar-item:hover {
@@ -84,13 +102,13 @@
     padding: 0 1rem;
     color: var(--text-color);
     list-style-type: none;
-    background-color: #7a7a7a;
+    background-color: rgba(0, 0, 0, 0.7);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     display: none;
     animation: showList 0.4s ease-in-out;
     position: relative;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.4);
 }
 
 @keyframes showList {
