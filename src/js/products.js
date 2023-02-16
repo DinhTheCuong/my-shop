@@ -13,50 +13,50 @@ const renderProducts = {
         },
         {
             id: 2,
-            name: 'áo dài tay',
+            name: 'áo vest dạ đỏ',
             img: '../img/products/ao_2.jpg',
             // path:
             price: 80,
         },
         {
             id: 3,
-            name: 'áo len',
+            name: 'áo khoác kẻ nâu',
             img: '../img/products/ao_3.jpg',
             // path:
             price: 100,
         },
         {
             id: 4,
-            name: 'áo khoác',
+            name: 'đầm liền thiết kế',
             img: '../img/products/ao_4.jpg',
             // path:
             price: 120,
         },
         {
-            id: 1,
-            name: 'đầm tiệc trễ vai',
-            img: '../img/products/ao_1.jpg',
+            id: 5,
+            name: 'quần baggy hồng',
+            img: '../img/products/ao_5.jpg',
             // path:
             price: 50,
         },
         {
-            id: 2,
-            name: 'áo dài tay',
-            img: '../img/products/ao_2.jpg',
+            id: 6,
+            name: 'quần culottes đen',
+            img: '../img/products/ao_6.jpg',
             // path:
             price: 80,
         },
         {
-            id: 3,
-            name: 'áo len',
-            img: '../img/products/ao_3.jpg',
+            id: 7,
+            name: 'đầm đỏ thiết kế',
+            img: '../img/products/ao_7.jpg',
             // path:
             price: 100,
         },
         {
-            id: 4,
-            name: 'áo khoác',
-            img: '../img/products/ao_4.jpg',
+            id: 8,
+            name: 'đầm tiệc nhung',
+            img: '../img/products/ao_8.jpg',
             // path:
             price: 120,
         }
