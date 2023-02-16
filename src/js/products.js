@@ -1,6 +1,6 @@
 const productsSheft = document.querySelector('.products-sheft');
 
-const app = {
+const renderProducts = {
     currentIndex: 0,
 
     products: [
@@ -84,4 +84,4 @@ const app = {
     }
 }
 
-app.start();
+renderProducts.start();

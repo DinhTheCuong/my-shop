@@ -43,7 +43,7 @@
 .navbar {
     height: 6rem;
     width: 100%;
-    background: #313132;
+    background: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: space-around;

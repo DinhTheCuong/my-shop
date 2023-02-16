@@ -1,14 +1,19 @@
-.slider {
+/* slider */
+
+.slider1 {
     margin-top: 9rem;
 }
 
-.slider img {
+.slider1 img {
     width: 100%;
 }
 
 .slick-dots {
     bottom: -3.5rem;
 }
+
+
+/* products section */
 
 .products-section {
     display: flex;
@@ -71,4 +76,93 @@
     font-size: 1.6rem;
     font-weight: 600;
     margin: 2rem 0 1rem;
+}
+
+.all-product-btn {
+    width: 20rem;
+    height: 4rem;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+
+.all-product-btn:hover {
+    background-color: #fff;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.all-product-btn:hover .all-product-link {
+    color: #000;
+}
+
+.all-product-link {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 4px 0 0;
+}
+
+/* blog section */
+
+.blog-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.blog-section-title {
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+}
+
+.blog-section-title span {
+    font-size: 3rem;
+}
+
+.blog-section-title p {
+    font-size: 1.2rem;
+}
+
+.blog-sheft {
+    margin: 4rem 7rem 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.blog-card {
+    width: 30%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 1rem 2rem 0;
+}
+
+.blog-link {
+    text-decoration: none;
+}
+
+.blog-image {
+    width: 100%;
+}
+
+.blog-title {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.blog-title:hover {
+    color: #000;
 }
